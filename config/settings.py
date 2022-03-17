@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+
+    'users'
 ]
 
 MIDDLEWARE = [
@@ -78,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'owu_django',
         'USER': 'root',
-        'PASSWORD': '110919878',
+        'PASSWORD': '11091987',
         'HOST': 'localhost',
         'PORT': '3306'
     }
