@@ -77,8 +77,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'owu_django',
-        'USER': 'root',
         'PASSWORD': '11091987',
+        'USER': 'root',
         'HOST': 'localhost',
         'PORT': '3306'
     }
